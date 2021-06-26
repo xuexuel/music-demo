@@ -1,0 +1,29 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: #ddd; 
+  font-size: 14px;
+}
+ul li{
+  list-style: none;
+  width: 30%;
+  display: inline-block;
+}
+.headContainer{
+  margin: 100px 100px 0 100px;
+  height: 40px;
+}
+.btnStyle{
+  display: inline-block;
+  border: 1px solid #ddd;
+  
+  margin-right: 20px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.listContainer{
+  margin: 20px 100px 0 100px;
+}

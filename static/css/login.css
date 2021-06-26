@@ -1,0 +1,33 @@
+.loginContainer{
+  width:500px;
+  height: 300px;
+  border: 1px solid #888;
+  margin: 0 auto;
+  text-align: center;
+}
+form{
+  position: relative;
+}
+form input{
+  margin-bottom: 20px;
+}
+.inputStyle{
+  text-align: left;
+  margin-right: 20px;
+}
+
+.loginStyle{
+  height: 40px;
+  width: 140px;
+  background-color:rgb(15, 179, 70);
+  border:none;
+  color:#fff;
+}
+
+.exchange{
+  position: absolute;
+  top:8px;
+  right:65px;
+  color:red;
+}
+

@@ -1,0 +1,93 @@
+body{
+  font-size: 14px;
+}
+.changeSkin{
+  background-color: rgb(15, 179, 70);
+  border:none;
+  color:#fff;
+  width: 80px;
+}
+.singerContainer{
+  padding:30px 30px 0 30px;
+  min-width: 500px;
+}
+
+.headImg{
+  float: left;
+  width: 180px;
+  height: 180px;
+  margin-right: 20px;
+}
+
+.singerRight{
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.singerName{
+  font-size: 26px;
+  display: block;
+  line-height: 40px;
+}
+.singerDetail{
+  word-wrap: break-word;
+  display: block;
+  line-height: 25px;
+}
+.titleKey{
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.titleValue{
+  font-size: 18px;
+   margin-right: 10px;
+}
+
+.mybn{
+  margin-top: 15px;
+}
+
+.mybn span{
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.hotSong{
+  background-color: rgb(15, 179, 70);
+  border:none;
+  color:#fff;
+  margin-right: 20px;
+}
+
+.attention{
+  border: 1px solid #888;
+}
+
+.songList{
+  padding:30px 30px 0 30px;
+  min-width: 500px;
+  clear: both;
+}
+ul{
+  display: block;
+}
+
+ul li{
+  padding:0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  width: 25%;
+  height: 30px;
+  line-height: 30px;
+}
+
+.grayWord{
+  color: #888;
+}

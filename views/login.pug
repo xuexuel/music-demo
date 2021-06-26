@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel='stylesheet',href='css/login.css')
+    script(src="js/login.js" type="text/javascript")
+    title Document
+  body 
+    .loginContainer 
+      h1 登录
+      form(action="/checkUserName",method='post')
+        |姓名：
+        input.inputStyle(type='text',name='username')
+        .exchange 用户名错误
+        br
+        |密码：
+        input.inputStyle(type='password',name='pwd')
+        br
+        input.loginStyle(type='submit',name='登录')
+        |   |
+        input(type='checkbox',name='memberMe')
+        |记住我
